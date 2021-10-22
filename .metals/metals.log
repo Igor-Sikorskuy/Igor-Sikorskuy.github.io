@@ -13,3 +13,23 @@
 [0m2021.10.08 00:19:15 WARN  Build server is not auto-connectable.[0m
 [0m2021.10.08 00:19:15 WARN  no build tool detected in workspace 'D:\VSCode\Сюда Лабы\laba WEB 1\Laboratory №1 (Site)'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.10.08 00:21:45 INFO  shutting down Metals[0m
+[0m2021.10.08 15:09:04 INFO  Started: Metals version 0.10.7 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.08 15:09:06 INFO  time: initialize in 2.03s[0m
+[0m2021.10.08 15:09:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.08 15:09:09 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.08 17:10:51 INFO  shutting down Metals[0m
+[0m2021.10.20 12:05:15 INFO  Started: Metals version 0.10.7 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.20 12:05:16 INFO  time: initialize in 1.93s[0m
+[0m2021.10.20 12:05:18 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.20 12:05:18 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+окт 20, 2021 12:09:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+окт 20, 2021 12:21:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.10.21 21:01:42 INFO  Started: Metals version 0.10.7 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.0.[0m
+[0m2021.10.21 21:01:46 INFO  time: initialize in 3.13s[0m
+[0m2021.10.21 21:01:55 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.21 21:01:55 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+окт 21, 2021 9:02:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.10.22 02:07:01 INFO  shutting down Metals[0m

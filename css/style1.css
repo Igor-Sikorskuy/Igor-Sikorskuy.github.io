@@ -1,0 +1,75 @@
+body{
+    background-color: #FFE4C4;
+    text-decoration: none;
+    text-decoration: rgba(133, 102, 55, 0.897);
+    color: black;
+    font-size: 20px;
+    line-height: normal;
+    background-position: top center;
+    min-height: 80vh;
+    min-block-size: 50px;
+}
+.cont
+{
+    padding: top 2px;
+    padding:  bottom 2px;
+    padding: right 1px;
+    padding: left 1px;
+}
+.info
+{
+    background-color: none;
+    color: black;
+    font-size: 16px;
+    padding: top 2px;
+    padding: bottom 2px;
+    padding: right 1px;
+    padding: left 1px;
+    min-height: 100vh;
+    min-block-size: 70px;
+}
+.header
+{
+    margin: 0.1em;
+}
+.logotype
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    display: flex;
+}
+.fon
+{
+    background-image: url(images\панорама.png);
+    display: flex;
+}
+hr
+{
+    border: 2px solid black;
+    width:100%;
+    size:400px;
+}
+.menu
+{
+    display: flex;
+    padding: 100px 0;
+    width: 100%;
+}
+.text-menu
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Avenir;
+    font-weight: bold;
+    margin: 20px 0;
+    align-items: center;
+}
+.img-menu
+{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+

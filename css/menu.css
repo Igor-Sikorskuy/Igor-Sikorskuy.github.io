@@ -1,0 +1,32 @@
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Avenir;
+    font-weight: bold;
+    margin: 20px 0;
+    align-items: center;
+}
+.menu a{
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 12px;
+    text-align: center;
+}
+.menu a, a + a{
+    padding: 18px 0;
+    margin: 10px 0;
+}
+
+.menu a:hover{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transition: .5s ease-out;
+    transition-delay: 0.1s;
+}
+
+#active{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}

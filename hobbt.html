@@ -3,37 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Content-Type" content="text/html">
-        <title>Хобби</title>
+        <title>Главная страница</title>
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/table.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/photo.css">        
     </head>
 
-    <body link="black" vlink="black" alink="black" bgcolor="#FFFF1F">
-        <a href= "navig.html" > <img src="images\unnamed.png" height="90" width="90" align="left" alt="Логотип"></a>
-        <h3 >IAmAnimeBoy(Навигация)</h3>
-        <hr width="100%" size="4" color="black">
+    <body>
+        <div class = "cont">
+        <div class = "header">
+        <div class = "logotype">
+            <img class= "logo" src="images\unnamed.png"  alt="Логотип">       
+        </div>
+        <div class = "fon">
+            <img class= "ing-fon" src="images\панорама.png" alt="Панорама">
+        </div>
+        <a href= "index.html" >             
+            <span >IAmAnimeBoy(Главная)</span>
+        </a>
+    </div>
+    <hr>  
+    <h1>Главная страница</h1>      
+    <hr>
+    
+    <div class="menu">
+        <div class = "img-menu"><img class="rulo" src="images\myrulo.jpg" alt="Выспись"></div>
+        <div class = "text-menu">
+                <a href="index.html">Главная страница</a>
+                <a href="favorite-subjects.html">Школа и как там было</a>
+                <a href="hobbt.html">Хобби</a>
+                <a href="programming-languages.html">Языки программирования</a>
+                <a href="outpot-to-computer.html">Выход к компьютеру</a>
+                <a href="plans-to-future.html">Че по чем в моей жизни завтра</a>
+                <a href="ai-knowledge.html">Знание об ИИ</a>
+            </div>
+    </div> 
+</div>
+<div class = "info">
+        <hr>
 
-        <table width="100%" border="1">
-            <tbody  align="center">
-                <tr>
-                    <td><a href="index.html">Главная страница</a></td>
-                    <td><a href="favorite-subjects.html">Школа и как там было</a></td>
-                    <td><a href="hobbt.html">Хобби</a></td>
-                    <td><a href="programming-languages.html">Языки программирования</a></td>
-                    <td><a href="outpot-to-computer.html">Выход к компьютеру</a></td>
-                    <td><a href="plans-to-future.html">Че по чем в моей жизни завтра</a></td>
-                    <td><a href="ai-knowledge.html">Знание об ИИ</a></td>
-                </tr>
-            </tbody>
-        </table>
-        <hr width="100%" size="4" color="black">
+        <h1>Хобби</h1>
+        <hr>
 
-        <h1 align="center">Хобби</h1>
-        <hr width="100%" size="4" color="black">
-
-        <h2>У меня не так много хобби, но все же они имеются: </h2>
+        <p id=hb>У меня не так много хобби, но все же они имеются: </p>
+        <hr>
         <ol>
-            <h4><li>Чтение развлекательной и довольно занимательной, но мало известной литературы:</h4>
-                <table border="5" width="100%">
-                    <tbody align="center">
+            <p id=hb1><li>Чтение развлекательной и довольно занимательной, но мало известной литературы:</h4>
+                <table class="table-hb">
+                    <tbody>
                         <tr>
                             <th>Олимпиец</th>
                             <th>Токийский полукровка</th>
@@ -41,23 +62,25 @@
                         </tr>
                         <tr>
                             <td> <a href="https://author.today/work/120168" target="_blank">
-                                <img src="images\Олимпиец.jpg" alt="Олимпиец" height="350"></a></td>
+                                <img class="hobbit" src="images\Олимпиец.jpg" alt="Олимпиец"></a></td>
                             <td> <a href="https://author.today/work/131635" target="_blank">
-                                <img src="images\Токийский полукровка.jpg" alt="Токийский полукровка" height="350"></a></td>
+                                <img class="hobbit" src="images\Токийский полукровка.jpg" alt="Токийский полукровка"></a></td>
                             <td> <a href="https://author.today/work/123570" target="_blank">
-                                <img src="images\Искусство Войны.jpg" alt="Искусство Войны" height="350"></a></td>
+                                <img class="hobbit" src="images\Искусство Войны.jpg" alt="Искусство Войны"></a></td>
                         </tr>
                         <tr>
                             <th>&#8657 Ссылка &#8657;</th>
                             <th>&#8657 Ссылка &#8657;</th>
                             <th>&#8657 Ссылка &#8657;</th>
                         </tr>
+                        <hr>
                     </tbody>
                 </table>
+                <hr>
             </li>
-            <h4><li>Я являюсь большим поклонником видеоигр и вот некоторые из них:</h4>
-                <table border="5" width="100%">
-                    <tbody align="center">
+            <p id=hb2><li>Я являюсь большим поклонником видеоигр и вот некоторые из них:</h4>
+                <table class="table-hb">
+                    <tbody >
                         <tr>
                             <th>The Witcher 3 - Wild Hunt</th>
                             <th>Neverwinter</th>
@@ -66,14 +89,15 @@
                         </tr>
                         <tr>
                             <td><a href="https://ru.wikipedia.org/wiki/Ведьмак_3:_Дикая_Охота" target="_blank">
-                                <img src="images\The_Witcher_3-_Wild_Hunt.jpg" alt="The Witcher 3- Wild Hunt" height="350"></a></td>
+                                <img class="hobbit" src="images\The_Witcher_3-_Wild_Hunt.jpg" alt="The Witcher 3- Wild Hunt"></a></td>
                             <td><a href="https://www.arcgames.com/ru/games/neverwinter" target="_blank">
-                                <img src="images\Neverwinter.png" alt="Neverwinter" height="350"> </a></td>
+                                <img class="hobbit" src="images\Neverwinter.png" alt="Neverwinter"> </a></td>
                             <td><a href="https://ru.wikipedia.org/wiki/Warhammer_40,000:_Dawn_of_War_–_Soulstorm" target="_blank">
-                                <img src="images\Warhammer 40000 Dawn of War Soulstorm.jpg" alt="Warhammer 40.000: Dawn of War - Soulstorm" height="350"></a></td>
+                                <img class="hobbit" src="images\Warhammer 40000 Dawn of War Soulstorm.jpg" alt="Warhammer 40.000: Dawn of War - Soulstorm" ></a></td>
                             <td><a href="https://ru.wikipedia.org/wiki/Prime_World" target="_blank">
-                                <img src="images\Prime World.jpg" alt="SPrime World" height="350"></a></td>
+                                <img class="hobbit" src="images\Prime World.jpg" alt="SPrime World" ></a></td>
                         </tr>
+                        <hr>
                         <tr>
                             <th>&#8657 Ссылка &#8657;</th>
                             <th>&#8657 Ссылка &#8657;</th>
@@ -83,9 +107,10 @@
                     </tbody>
                 </table>
             </li>
-            <h4><li>Я с 6 лет являюсь огромным поклонником аниме и манги и хочу поделится 4 из них:</h4>
-                <table border="5" width="100%">
-                    <tbody align="center">
+            <hr>
+            <p id=hb3><li>Я с 6 лет являюсь огромным поклонником аниме и манги и хочу поделится 4 из них:</h4>
+                <table class="table-hb">
+                    <tbody>
                         <tr>
                             <th>Vampire Knight</th>
                             <th>Hellsing</th>
@@ -94,14 +119,15 @@
                         </tr>
                         <tr>
                             <td><a href="https://mangalib.me/vampire-knight?section=info" target="_blank">
-                                <img src="images\Рыцарь вампир.jpg" alt="Рыцарь вампир" height="350"></a></td>
+                                <img class="hobbit" src="images\Рыцарь вампир.jpg" alt="Рыцарь вампир"></a></td>
                             <td><a href="https://animevost.org/tip/ova/96-hellsing-ova.html" target="_blank">
-                                <img src="images\Hellsing.jpeg" alt="Hellsing" height="350"></a></td>
+                                <img class="hobbit" src="images\Hellsing.jpeg" alt="Hellsing" ></a></td>
                             <td><a href="https://mangalib.me/shingetsutan-tsukihime?section=info" target="_blank">
-                                <img src="images\Повесть о Лунной Принцессе.jpg" alt="Shingetsutan Tsukihime" height="350"></a></td>
+                                <img class="hobbit" src="images\Повесть о Лунной Принцессе.jpg" alt="Shingetsutan Tsukihime"></a></td>
                             <td><a href="https://mangalib.me/shonen-no-abyss?section=info" target="_blank">
-                                <img src="images\Юношеская бездна.jpg" alt="Юношеская бездна" height="350"></a></td>
+                                <img class="hobbit" src="images\Юношеская бездна.jpg" alt="Юношеская бездна"></a></td>
                         </tr>
+                        <hr>
                         <tr>
                             <th>&#8657 Ссылка &#8657;</th>
                             <th>&#8657 Ссылка &#8657;</th>
@@ -111,6 +137,8 @@
                     </tbody>
                 </table>
             </li>
+            <hr>
         </ol>
+    </div>
     </body>
 </html>

@@ -4,41 +4,55 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-Type" content="text/html">
         <title>Главная страница</title>
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/table.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/photo.css">        
     </head>
 
-    <body link="black" vlink="black" alink="black" bgcolor="#FFFF1F">
-        <a href= "navig.html" > <img src="images\unnamed.png" height="90" width="90" align="left" alt="Логотип"></a>
-        <h3 >IAmAnimeBoy(Навигация)</h3>
-        <hr width="100%" size="4" color="black">
+    <body>
+        <div class = "cont">
+        <div class = "header">
+        <div class = "logotype">
+            <img class= "logo" src="images\unnamed.png"  alt="Логотип">       
+        </div>
+        <div class = "fon">
+            <img class= "ing-fon" src="images\панорама.png" alt="Панорама">
+        </div>
+        <a href= "index.html" >             
+            <span >IAmAnimeBoy(Главная)</span>
+        </a>
+    </div>
+    <hr>  
+    <h1>Главная страница</h1>      
+    <hr>
+    
+    <div class="menu">
+        <div class = "img-menu"><img class="rulo" src="images\myrulo.jpg" alt="Выспись"></div>
+        <div class = "text-menu">
+                <a href="index.html">Главная страница</a>
+                <a href="favorite-subjects.html">Школа и как там было</a>
+                <a href="hobbt.html">Хобби</a>
+                <a href="programming-languages.html">Языки программирования</a>
+                <a href="outpot-to-computer.html">Выход к компьютеру</a>
+                <a href="plans-to-future.html">Че по чем в моей жизни завтра</a>
+                <a href="ai-knowledge.html">Знание об ИИ</a>
+            </div>
+    </div>      
+</div>
+<div class = "info">
+        <hr>
 
-        <table width="100%" border="1">
-            <tbody  align="center">
-                <tr>
-                    <td><a href="index.html">Главная страница</a></td>
-                    <td><a href="favorite-subjects.html">Школа и как там было</a></td>
-                    <td><a href="hobbt.html">Хобби</a></td>
-                    <td><a href="programming-languages.html">Языки программирования</a></td>
-                    <td><a href="outpot-to-computer.html">Выход к компьютеру</a></td>
-                    <td><a href="plans-to-future.html">Че по чем в моей жизни завтра</a></td>
-                    <td><a href="ai-knowledge.html">Знание об ИИ</a></td>
-                </tr>
-            </tbody>
-        </table>
-        <hr width="100%" size="4" color="black">
-
-        <h1 align="center">Школа и как там было</h1>
-        <hr width="100%" size="4" color="black">
-        <table>
-            <tr>
-                <td><p>С 14 лет Я обучался в <br>Коммунальном учреждение "Славянсокой Общеобразовательной школе I-III ступеней №10"</p></td>
-            </tr>
-            <tr>
-                <td><p>До этого Я учился в лицее, горловской школе №53. Еще с первого класса полюбил математику, участвовал в школьных конкурсвх по ней и олимпиадах, так же в школе был кружок танцев, в который Я ходил полтора года и выступала в дврце культуры Горловки. С пятого класса у нас появился немецкий язык, хоть он и очень походил на английский, для меня, но все же мне очень понравился не смотря на не любовь к английскому. После перехода в другую школу появилась физики, которая мне в начале понравилась, но после смены 3 учителей от былого желания учить физику не осталась и следа. у преподавателей были разные подходы и, если у первого был практический подход и почти каждое изучаемое нами явление было продемонстрировано им, то вторая предерживалась сугубо теоретического подхода и про опыты мы забыли на полтора года, когда пришел новый, последний, учитель, то все желание учить физику пропало у очень многих, что его очень печалило.</p></td>
-            </tr>
-        </table>
-        <table>
+        <h1>Школа и как там было</h1>
+        <hr>
+        <span id = vs>С 14 лет Я обучался в <br>Коммунальном учреждение "Славянсокой Общеобразовательной школе I-III ступеней №10"</span>
+           
+          <span id = vd>До этого Я учился в лицее, горловской школе №53. Еще с первого класса полюбил математику, участвовал в школьных конкурсвх по ней и олимпиадах, так же в школе был кружок танцев, в который Я ходил полтора года и выступала в дврце культуры Горловки. С пятого класса у нас появился немецкий язык, хоть он и очень походил на английский, для меня, но все же мне очень понравился не смотря на не любовь к английскому. После перехода в другую школу появилась физики, которая мне в начале понравилась, но после смены 3 учителей от былого желания учить физику не осталась и следа. у преподавателей были разные подходы и, если у первого был практический подход и почти каждое изучаемое нами явление было продемонстрировано им, то вторая предерживалась сугубо теоретического подхода и про опыты мы забыли на полтора года, когда пришел новый, последний, учитель, то все желание учить физику пропало у очень многих, что его очень печалило.</span>
+       
         <p>Любимые предметы</p>
-        </table>
         <ul>
             <li>Алгебра </li>
             <li>Физика(до 8 класса) </li>
@@ -46,11 +60,12 @@
             <li>Информатика </li>
             <li>Труды </li>
         </ul>
-        <table>
-            <tbody align="center">
+        <table class="table-info">
+            <tbody>
                 <tr><td><p>&#8681 Ссылка на сайт школы &#8681</p></td></tr>
-                <tr><td><a href="http://www.school-10.net" target="_blank"><img src="images\school.jpg" border="3" alt="Школа"></a></td></tr>
+                <tr><td><a href="http://www.school-10.net" target="_blank"><img class ="school" src="images\school.jpg" alt="Школа"></a></td></tr>
             </tbody>
         </table>
+    </div>
     </body>
 </html>

@@ -4,31 +4,49 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-Type" content="text/html">
         <title>Главная страница</title>
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/table.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/photo.css">        
     </head>
 
-    <body link="black" vlink="black" alink="black" bgcolor="#FFFF1F">
-        <a href= "navig.html" > <img src="images\unnamed.png" height="90" width="90" align="left" alt="Логотип"></a>
-        <h3 >IAmAnimeBoy(Навигация)</h3>
-        <hr width="100%" size="4" color="black">
-
-        <table width="100%" border="1">
-            <tbody  align="center">
-                <tr>
-                    <td><a href="index.html">Главная страница</a></td>
-                    <td><a href="favorite-subjects.html">Школа и как там было</a></td>
-                    <td><a href="hobbt.html">Хобби</a></td>
-                    <td><a href="programming-languages.html">Языки программирования</a></td>
-                    <td><a href="outpot-to-computer.html">Выход к компьютеру</a></td>
-                    <td><a href="plans-to-future.html">Че по чем в моей жизни завтра</a></td>
-                    <td><a href="ai-knowledge.html">Знание об ИИ</a></td>
-                </tr>
-            </tbody>
-        </table>
-        <hr width="100%" size="4" color="black">
-
-        <h1 align="center">Че Я такой задрот?</h1>
-        <hr width="100%" size="4" color="black">
-        <table border = "1" width="500" height="400" cellpadding="15" align="center">
+    <body>
+        <div class = "cont">
+        <div class = "header">
+        <div class = "logotype">
+            <img class= "logo" src="images\unnamed.png"  alt="Логотип">       
+        </div>
+        <div class = "fon">
+            <img class= "ing-fon" src="images\панорама.png" alt="Панорама">
+        </div>
+        <a href= "index.html" >             
+            <span >IAmAnimeBoy(Главная)</span>
+        </a>
+    </div>
+    <hr>  
+    <h1>Главная страница</h1>      
+    <hr>
+    
+    <div class="menu">
+        <div class = "img-menu"><img class="rulo" src="images\myrulo.jpg" alt="Выспись"></div>
+        <div class = "text-menu">
+                <a href="index.html">Главная страница</a>
+                <a href="favorite-subjects.html">Школа и как там было</a>
+                <a href="hobbt.html">Хобби</a>
+                <a href="programming-languages.html">Языки программирования</a>
+                <a href="outpot-to-computer.html">Выход к компьютеру</a>
+                <a href="plans-to-future.html">Че по чем в моей жизни завтра</a>
+                <a href="ai-knowledge.html">Знание об ИИ</a>
+            </div>
+    </div>     
+</div>
+        <h1>Че Я такой задрот?</h1>
+        <hr>
+        <div class = "comp">
+        <table class = "table-comp">
             <tbody>            
                     <tr>
                         <th>Понедельник</th><td>11 часов</td>
@@ -54,12 +72,11 @@
                     <tr>
                         <th>За неделю</th><td> 84 часа</td>
                     </tr>
-                    <table align="center">
-                        <tr>
-                            <td><img src="images\komson.jpg" height="460" width="960" alt="Кот"></td>
-                        </tr>
-                    </table>
+                    
             </tbody>   
-        </table> 
+        </table>
+        <img class ="polet" src="images\komson.jpg" alt="Кот">
+     <hr>
+     </div>
     </body>
 </html>
