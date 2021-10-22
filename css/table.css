@@ -11,7 +11,7 @@
     margin: 30px 0;
     box-shadow: 16px 16px 16px -1px #1f3091ad;
     border: 3px solid black;
-    align-items: center;
+    align-items: right;
 }
 .table-hb{
     border-collapse: collapse;
