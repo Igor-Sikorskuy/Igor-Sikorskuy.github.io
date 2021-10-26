@@ -5,61 +5,38 @@ span
     font-weight: bold;
     text-transform: none;
     letter-spacing: 0.1em;
-    color: rgb(27, 27, 27);  
 }
 #test1
 {
     font-size: 20px;
-    font-family:'URW Chancery L',cursive;
     letter-spacing: -1px;
     color: crimson;
-}
-#test
-{
-    font-size: 15px;
-    font-family:'URW Chancery L',cursive;
-    letter-spacing: -1px;
 }
 #vs,#vd,#hb1,#hb2,#hb3
 {
     font-size: 17px;
-    font-family:'Сomic Sans MS',cursive;
     font-weight: 400;
     letter-spacing: -1px;
 }
-#hb
+#lg
 {
     font-size: 25px;
-    font-family:'Сomic Sans MS',cursive;
-    font-weight: bolt;
+    color: black;
 }
-
+#lg::first-letter {
+    font-size: 25px;
+    color: black;
+}
 p, a, ul li, ol{
     font-size: 17px;
-     font-family: 'URW Chancery L', cursive;
      color: rgb(27, 27, 27);
      font-weight: bold;
      letter-spacing: -1px;
-}
-span::first-letter {
-    font-size: 18px;
-    color: rgb(0, 76, 255);
-}
-#hb::first-letter
-{
-    font-size: 30px;
-    color: rgb(0, 76, 255);
+     font-family: 'URW Chancery L', cursive;
 }
 p::first-letter {
     font-size: 18px;
     color: rgb(0, 76, 255);
-}
-
-.header {
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    letter-spacing: -1px;
 }
 ul li{
     font-size: 16px;

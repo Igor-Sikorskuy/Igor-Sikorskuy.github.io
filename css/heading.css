@@ -2,7 +2,7 @@ h1,h3
 {
     font-size: 40px;
     color: black;
-    font-family:'Caveat',cursive;
+    font-family:'URW Chancery L',cursive;
     font-style: italic;
     font-weight: 500;
     font-variant: normal;
@@ -12,11 +12,11 @@ h1,h3
 h2
 {
     font-size: 30px;
-    color: black;
-    font-family:'Caveat',cursive;
+    font-family:'URW Chancery L',cursive;
     font-style: italic;
     font-weight: 500;
     font-variant: normal;
     font-stretch: semi-condensed;
     text-align: left;
+    color: black;
 }

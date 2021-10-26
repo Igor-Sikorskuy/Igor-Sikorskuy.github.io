@@ -1,22 +1,23 @@
 .menu
 {
     display: flex;
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    font-family: Avenir;
+    font-family: 'URW Chancery L', cursive;
     font-weight: bold;
-    margin: 20px 0;
     align-items: center;
 }
-.menu a{
-    width: 500px;
+.menu a
+{
     background-color: #fff;
     border: 1px solid;
     border-radius: 12px;
     text-align: center;
 }
 .menu a, a + a{
-    padding: 18px 0;
-    margin: 10px 0;
+    padding: 18px 15px;
+    margin: 10px;
 }
 
 .menu a:hover{
@@ -26,7 +27,7 @@
     transition-delay: 0.1s;
 }
 
-#active{
+.active{
     background-color: rgb(27, 27, 27);
     color: white;
 }
