@@ -56,3 +56,4 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.10.26 20:59:43 INFO  time: initialize in 2.28s[0m
 [0m2021.10.26 20:59:50 WARN  Build server is not auto-connectable.[0m
 [0m2021.10.26 20:59:50 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.26 22:53:12 INFO  shutting down Metals[0m
