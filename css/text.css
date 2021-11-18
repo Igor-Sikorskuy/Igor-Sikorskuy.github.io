@@ -46,3 +46,10 @@ ol li{
     font-size: 16px;
     font-weight: normal;
 }
+.sp_body, .sp_links { width: 230px; text-align: center; }
+.sp_body { display: none; font-style: italic; }
+.sp_links { cursor: pointer; font-weight: bold; text-decoration: underline;
+ color: #0000FF; margin: 5px; border: 1px solid #808080; border-radius: 7px; }
+.closed {display:none;}
+.opened {display:block;}
+

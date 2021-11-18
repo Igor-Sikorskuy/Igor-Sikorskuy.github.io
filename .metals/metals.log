@@ -57,3 +57,33 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.10.26 20:59:50 WARN  Build server is not auto-connectable.[0m
 [0m2021.10.26 20:59:50 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.10.26 22:53:12 INFO  shutting down Metals[0m
+[0m2021.10.27 07:19:09 INFO  Started: Metals version 0.10.8 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.27 07:19:18 INFO  time: initialize in 8.9s[0m
+[0m2021.10.27 07:19:21 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.27 07:19:21 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.27 10:25:04 INFO  shutting down Metals[0m
+[0m2021.11.03 16:08:47 INFO  Started: Metals version 0.10.8 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.03 16:08:55 INFO  time: initialize in 8.04s[0m
+[0m2021.11.03 16:08:58 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.03 16:08:58 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.03 21:45:21 INFO  shutting down Metals[0m
+[0m2021.11.17 23:47:53 INFO  Started: Metals version 0.10.8 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.17 23:48:01 INFO  time: initialize in 7.47s[0m
+[0m2021.11.17 23:48:03 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.17 23:48:03 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.18 00:12:47 INFO  shutting down Metals[0m
+[0m2021.11.18 00:44:38 INFO  Started: Metals version 0.10.9 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.18 00:44:47 INFO  time: initialize in 8.82s[0m
+[0m2021.11.18 00:44:48 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.18 00:44:48 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.18 01:44:01 INFO  shutting down Metals[0m
+[0m2021.11.18 09:52:09 INFO  Started: Metals version 0.10.9 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.62.2.[0m
+[0m2021.11.18 09:52:15 INFO  time: initialize in 6.21s[0m
+[0m2021.11.18 09:52:17 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.18 09:52:17 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.18 11:03:37 INFO  shutting down Metals[0m
+[0m2021.11.18 23:02:50 INFO  Started: Metals version 0.10.9 in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io' for client Visual Studio Code 1.62.2.[0m
+[0m2021.11.18 23:03:03 INFO  time: initialize in 12s[0m
+[0m2021.11.18 23:03:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.18 23:03:09 WARN  no build tool detected in workspace 'D:\OneDrive\OneDrive - Kharkov National University of Radioelectronics\Документы\GitHub\Igor-Sikorskuy.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.18 23:28:13 INFO  shutting down Metals[0m

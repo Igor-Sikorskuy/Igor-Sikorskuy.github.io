@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Главная страница</title>
+        
+        <script type="text/javascript" src="js/table.js"></script>
+        <script type="text/javascript" src="js/hotkeys.js"></script>
+        <script type="text/javascript" src="js/form.js"></script>
+        
+</head>
+
+<body onkeyup="hotkey(event)">
+    <div id="key"></div>
+    <div class="menu">
+        <div id = "text-menu">
+                <a href="index.html">Главная страница</a>
+                <a href="favorite-subjects.html">Школа и как там было</a>
+                <a href="hobbt.html">Хобби</a>
+                <a href="programming-languages.html">Языки программирования</a>
+                <a href="outpot-to-computer.html">Выход к компьютеру</a>
+                <a href="plans-to-future.html">Че по чем в моей жизни завтра</a>
+                <a href="ai-knowledge.html">Знание об ИИ</a>
+                <a href="galer.html">Галерея</a>
+                <a href="test.html">Test</a>
+            </div>
+    </div>
+    <hr>
+    <h1>Главная страница</h1> 
+    <hr> 
+
+    <div>
+
+        <img src="images/me.jpg" alt="Photo" />
+
+
+
+
+
+        <table>
+            <tr>
+                <td>ФИО:</td>
+                <td>XXXX</td>
+            </tr>
+            <tr>
+                <td>Пол:</td>
+                <td>Мужской</td>
+            </tr>
+            <tr>
+                <td>Дата рождения:</td>
+                <td>XXXXXX</td>
+            </tr>
+            <tr>
+                <td>Место рождения:</td>
+                <td>Харьков</td>
+            </tr>
+            <tr>
+                <td>Гражданство:</td>
+                <td>Украина</td>
+            </tr>
+            <tr>
+                <td>Семейный статус</td>
+                <td>--------------</td>
+            </tr>
+            <tr>
+                <td>Домашний адрес:</td>
+                <td>г.Харьков д.№ ХХ</td>
+            </tr>
+            <tr>
+                <td>Телефон:</td>
+                <td>8787489507</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>XXXXXXXX</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+
+        <form action="#">
+            <p>
+                Введите e-mail:
+            </p>
+            <p>
+                <input id="email" type="email" name="email" maxlength="30" onchange="onchange_form(this)">
+            </p>
+            <p>
+                Введите номер телефона:
+            </p>
+            <p>
+                <input id="phone" type="text" name="phone" maxlength="30" onchange="onchange_form(this)">
+            </p>
+            <p>
+                Комментарий
+            </p>
+            <p>
+                <textarea name="comment" rows="8" cols="50"></textarea>
+            </p>
+            <p>
+                <button id="send" name="add comment" disabled="true">Отправить комментарий</button>
+            </p>
+        </form>
+
+    </div>
+
+
+
+    <script>
+        applyTableEvents()
+    </script>
+</body>
+</html>

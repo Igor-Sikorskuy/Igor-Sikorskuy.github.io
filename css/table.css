@@ -1,3 +1,9 @@
+table,th,td
+{
+	border:2px solid black;
+	border-collapse:collapse;
+	text-align:center;
+}
 .table-main, .table-lang{
     display: flex;
     justify-content: center;
@@ -53,6 +59,7 @@ th, td {
     border: 2px solid black;
     vertical-align: middle;
     text-align: center;
+    border-collapse: collapse;
 }
 .table-comp
 {

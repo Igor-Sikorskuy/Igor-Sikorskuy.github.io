@@ -10,9 +10,12 @@
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/text.css">
         <link rel="stylesheet" href="css/heading.css">
-        <link rel="stylesheet" href="css/photo.css">      
+        <link rel="stylesheet" href="css/photo.css"> 
+        <script type="text/javascript" src="js/table.js"></script>
+        <script type="text/javascript" src="js/form.js"></script>
     </head>
-    <body>
+<body>
+        <noscript><p>Наши скрепты не работают у Вас</p></noscript>
         <div class  = "cont">
         <div class = "header">
             
@@ -39,6 +42,7 @@
                 <a href="plans-to-future.html">Че по чем в моей жизни завтра</a>
                 <a href="ai-knowledge.html">Знание об ИИ</a>
                 <a href="galer.html">Галерея</a>
+                <a href="test.html">Test</a>
             </div>
     </div>
     <hr>
@@ -128,5 +132,35 @@
         Теперь учусь в ХНУРЭ на кафедре Компьютерных наук, живу в этом же городе.
         </span>
     <hr>
+    <h1>Ваше мнение о сайте</h1>
+    <hr>
+    <div>
+        <form action="#">
+            <p>
+                Введите e-mail:
+            </p>
+            <p>
+                <input class = "forma" id="email" type="email" name="email" maxlength="30" onchange="onchange_form(this)">
+            </p>
+            <p>
+                Введите номер телефона:
+            </p>
+            <p>
+                <input class = "forma" id="phone" type="text" name="phone" maxlength="30" onchange="onchange_form(this)">
+            </p>
+            <p>
+                Комментарий
+            </p>
+            <p>
+                <textarea class = "forma" name="comment" rows="8" cols="50"></textarea>
+            </p>
+            <p>
+                <button id="send" name="add comment" disabled="true">Отправить комментарий</button>
+            </p>
+        </form>
+    </div>
+    <script>
+        applyTableEvents()
+    </script>
 </body>
 </html>

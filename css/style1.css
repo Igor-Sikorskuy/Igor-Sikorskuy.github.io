@@ -47,6 +47,7 @@ body{
     display: flex;
     justify-content:space-between;
 }
+
 .info
 {
     background-color: none;
@@ -93,4 +94,10 @@ hr
 {
     padding-top: 10px;
     letter-spacing: -1px;
+}
+.forma
+{
+    font-family: 'URW Chancery L', cursive;
+    font-weight: bold;
+    background-color: rgba(167, 213, 216, 0.363);
 }
