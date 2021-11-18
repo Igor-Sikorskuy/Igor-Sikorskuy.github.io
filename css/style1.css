@@ -7,6 +7,18 @@ body{
     line-height: normal;
     background-position: top center;
 }
+@page
+{
+	size: auto;
+}
+@media print
+{
+	*
+	{
+		color: Black;
+		background-color: White;
+	}
+}
 .logotype
 {
     margin: 0;
@@ -100,4 +112,49 @@ hr
     font-family: 'URW Chancery L', cursive;
     font-weight: bold;
     background-color: rgba(167, 213, 216, 0.363);
+}
+.box
+{
+	width:31%;
+	font-size:20px;
+	display:inline-block;
+	margin:10px 0;
+	padding:10px;
+	border-radius:10px;
+	vertical-align:top;
+}
+.box h2
+{
+	color:black;
+	text-align:center;
+}
+.box_elem
+{
+	padding:20px;
+	border: 3px solid black;
+	border-radius:20px;
+	background:linear-gradient(to top, #7fdf7f,#e2477bd0);
+	margin:10px;
+}
+.box_in_box
+{
+	border-radius:10px;
+}
+.container_box
+{
+	font-size:0;
+	max-width:80%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#popup
+{
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    text-align:center;
 }

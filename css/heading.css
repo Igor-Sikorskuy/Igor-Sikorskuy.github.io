@@ -20,3 +20,14 @@ h2
     text-align: left;
     color: black;
 }
+h4
+{
+    font-size: 25px;
+    font-family:'URW Chancery L';
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+    font-stretch: semi-condensed;
+    text-align: center;
+    color: rgba(17, 37, 221, 0.822);
+}

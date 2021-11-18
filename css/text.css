@@ -27,6 +27,16 @@ span
     font-size: 25px;
     color: black;
 }
+#II::first-letter {
+    font-size: 35px;
+    color: rgb(0, 76, 255);
+}
+#II
+{
+    color: rgb(0, 76, 255);
+    font-size: 30px;
+    font-family: 'URW Chancery L';
+}
 p, a, ul li, ol{
     font-size: 17px;
      color: rgb(27, 27, 27);
@@ -52,4 +62,22 @@ ol li{
  color: #0000FF; margin: 5px; border: 1px solid #808080; border-radius: 7px; }
 .closed {display:none;}
 .opened {display:block;}
+#popup p
+{
+    font-size:20px;
+    color: white;
+    top:35px;
+    right:25px;
+	position: absolute;
+    
+}
 
+#popup p:hover
+{
+    cursor:pointer;
+    
+}
+#popup p::first-letter
+{
+    color: red;
+}
